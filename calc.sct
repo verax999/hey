@@ -1,2 +1,2 @@
 <?XML version='1.0'?><scriptlet><registration progid='WinCheck' classid='{F0001111-0000-0000-0000-0000FEEDACDC}'><script language='JScript'><![CDATA[
-cmd = new ActiveXObject('WScript.Shell').Run("powershell.exe -c IEX "[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('V3JpdGUtSG9zdCBFbmNvZGVk'))"");]]></script></registration></scriptlet>
+cmd = new ActiveXObject('WScript.Shell').Run("powershell.exe -c IEX" & "[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('V3JpdGUtSG9zdCBFbmNvZGVk'))" & ");]]></script></registration></scriptlet>
